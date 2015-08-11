@@ -1,0 +1,28 @@
+{
+  "name": "RealmCloudKit",
+  "version": "0.1.0",
+  "summary": "A short description of RealmCloudKit.",
+  "homepage": "https://github.com/BellAppLab/RealmCloudKit",
+  "license": "MIT",
+  "authors": {
+    "Bell App Lab": "apps@bellapplab.com"
+  },
+  "source": {
+    "git": "https://github.com/BellAppLab/RealmCloudKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "frameworks": [
+    "Foundation",
+    "CloudKit"
+  ],
+  "dependencies": {
+    "RealmSwift": [
+
+    ]
+  }
+}

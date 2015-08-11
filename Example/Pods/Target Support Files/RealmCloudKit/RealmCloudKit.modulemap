@@ -1,0 +1,6 @@
+framework module RealmCloudKit {
+  umbrella header "RealmCloudKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+PODS:
+  - Realm (0.94.1):
+    - Realm/Headers (= 0.94.1)
+  - Realm/Headers (0.94.1)
+  - RealmCloudKit (0.1.0):
+    - RealmSwift
+  - RealmSwift (0.94.1):
+    - Realm (= 0.94.1)
+
+DEPENDENCIES:
+  - RealmCloudKit (from `../`)
+
+EXTERNAL SOURCES:
+  RealmCloudKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Realm: d999a6cf0b41577a077349c9cc9d496cc62a7d17
+  RealmCloudKit: 00ca9582b27e4c1362b8a75495393f661b22b243
+  RealmSwift: 06b60ff5b1338755654d39aab44ac38001600f76
+
+COCOAPODS: 0.38.2
