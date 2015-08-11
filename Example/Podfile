@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'RealmCloudKit_Example', :exclusive => true do
+  pod "RealmCloudKit", :path => "../"
+end
+
+target 'RealmCloudKit_Tests', :exclusive => true do
+  pod "RealmCloudKit", :path => "../"
+
+  
+end
