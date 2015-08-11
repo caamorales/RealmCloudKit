@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = "RealmCloudKit"
   s.version          = "0.1.0"
-  s.summary          = "A short description of RealmCloudKit."
+  s.summary          = "A Swift library built on top of Realm to sync data using CloudKit."
   s.homepage         = "https://github.com/BellAppLab/RealmCloudKit"
   s.license          = 'MIT'
   s.author           = { "Bell App Lab" => "apps@bellapplab.com" }
