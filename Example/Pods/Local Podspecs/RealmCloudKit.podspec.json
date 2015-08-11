@@ -1,7 +1,7 @@
 {
   "name": "RealmCloudKit",
   "version": "0.1.0",
-  "summary": "A short description of RealmCloudKit.",
+  "summary": "A Swift library built on top of Realm to sync data using CloudKit.",
   "homepage": "https://github.com/BellAppLab/RealmCloudKit",
   "license": "MIT",
   "authors": {
@@ -11,6 +11,7 @@
     "git": "https://github.com/BellAppLab/RealmCloudKit.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/BellAppLab",
   "platforms": {
     "ios": "8.0"
   },
@@ -18,10 +19,17 @@
   "source_files": "Pod/Classes/**/*",
   "frameworks": [
     "Foundation",
-    "CloudKit"
+    "CloudKit",
+    "Security"
   ],
   "dependencies": {
-    "RealmSwift": [
+    "MultiRealm": [
+
+    ],
+    "SwiftFileManager": [
+
+    ],
+    "CryptoSwift": [
 
     ]
   }

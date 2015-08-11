@@ -13,6 +13,8 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Pod/Classes/**/*'
 
-  s.frameworks = 'Foundation', 'CloudKit'
-  s.dependency 'RealmSwift'
+  s.frameworks = 'Foundation', 'CloudKit', 'Security'
+  s.dependency 'MultiRealm'
+  s.dependency 'SwiftFileManager'
+  s.dependency 'CryptoSwift'
 end

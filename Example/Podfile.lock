@@ -1,11 +1,23 @@
 PODS:
+  - Backgroundable (0.1.5)
+  - BLLogger (0.1.1)
+  - CryptoSwift (0.0.12)
+  - MultiRealm (0.3.1):
+    - RealmSwift
   - Realm (0.94.1):
     - Realm/Headers (= 0.94.1)
   - Realm/Headers (0.94.1)
   - RealmCloudKit (0.1.0):
-    - RealmSwift
+    - CryptoSwift
+    - MultiRealm
+    - SwiftFileManager
   - RealmSwift (0.94.1):
     - Realm (= 0.94.1)
+  - Stringer (0.3.0)
+  - SwiftFileManager (0.2.1):
+    - Backgroundable (~> 0.1)
+    - BLLogger (~> 0.1)
+    - Stringer (~> 0.1)
 
 DEPENDENCIES:
   - RealmCloudKit (from `../`)
@@ -15,8 +27,14 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
+  Backgroundable: 76ea10f3a738100d2f7befed8626f43f0afbbab8
+  BLLogger: caf652b72f9aff961436c7606df05087314291cf
+  CryptoSwift: 16f1b5a768057636275b76d1c43231c2abba9e80
+  MultiRealm: 48bf606fa48802e1e20e20300ff1b1fc0bd56177
   Realm: d999a6cf0b41577a077349c9cc9d496cc62a7d17
-  RealmCloudKit: 00ca9582b27e4c1362b8a75495393f661b22b243
+  RealmCloudKit: 948e2858852694fea047187ed3099262ac914f47
   RealmSwift: 06b60ff5b1338755654d39aab44ac38001600f76
+  Stringer: 82fddaa7e27b93625eaefcf1faea40b8f38147f3
+  SwiftFileManager: dc7806f52dd613d9fcb86e1d722453c388a199e0
 
 COCOAPODS: 0.38.2

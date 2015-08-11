@@ -52,12 +52,24 @@ code_sign_if_enabled() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework 'Pods-RealmCloudKit_Tests/BLLogger.framework'
+  install_framework 'Pods-RealmCloudKit_Tests/Backgroundable.framework'
+  install_framework 'Pods-RealmCloudKit_Tests/CryptoSwift.framework'
+  install_framework 'Pods-RealmCloudKit_Tests/MultiRealm.framework'
   install_framework 'Pods-RealmCloudKit_Tests/Realm.framework'
   install_framework 'Pods-RealmCloudKit_Tests/RealmCloudKit.framework'
   install_framework 'Pods-RealmCloudKit_Tests/RealmSwift.framework'
+  install_framework 'Pods-RealmCloudKit_Tests/Stringer.framework'
+  install_framework 'Pods-RealmCloudKit_Tests/SwiftFileManager.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework 'Pods-RealmCloudKit_Tests/BLLogger.framework'
+  install_framework 'Pods-RealmCloudKit_Tests/Backgroundable.framework'
+  install_framework 'Pods-RealmCloudKit_Tests/CryptoSwift.framework'
+  install_framework 'Pods-RealmCloudKit_Tests/MultiRealm.framework'
   install_framework 'Pods-RealmCloudKit_Tests/Realm.framework'
   install_framework 'Pods-RealmCloudKit_Tests/RealmCloudKit.framework'
   install_framework 'Pods-RealmCloudKit_Tests/RealmSwift.framework'
+  install_framework 'Pods-RealmCloudKit_Tests/Stringer.framework'
+  install_framework 'Pods-RealmCloudKit_Tests/SwiftFileManager.framework'
 fi

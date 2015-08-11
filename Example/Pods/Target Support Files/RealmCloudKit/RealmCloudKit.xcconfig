@@ -1,1 +1,1 @@
-REALMCLOUDKIT_OTHER_LDFLAGS = -framework "CloudKit" -framework "Foundation"
+REALMCLOUDKIT_OTHER_LDFLAGS = -framework "CloudKit" -framework "Foundation" -framework "Security"
