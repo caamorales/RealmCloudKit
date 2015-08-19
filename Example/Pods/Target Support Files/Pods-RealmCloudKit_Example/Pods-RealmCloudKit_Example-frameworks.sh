@@ -54,8 +54,10 @@ code_sign_if_enabled() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'Pods-RealmCloudKit_Example/BLLogger.framework'
   install_framework 'Pods-RealmCloudKit_Example/Backgroundable.framework'
-  install_framework 'Pods-RealmCloudKit_Example/CryptoSwift.framework'
+  install_framework 'Pods-RealmCloudKit_Example/Internet.framework'
+  install_framework 'Pods-RealmCloudKit_Example/KeychainAccess.framework'
   install_framework 'Pods-RealmCloudKit_Example/MultiRealm.framework'
+  install_framework 'Pods-RealmCloudKit_Example/ReachabilitySwift.framework'
   install_framework 'Pods-RealmCloudKit_Example/Realm.framework'
   install_framework 'Pods-RealmCloudKit_Example/RealmCloudKit.framework'
   install_framework 'Pods-RealmCloudKit_Example/RealmSwift.framework'
@@ -65,8 +67,10 @@ fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'Pods-RealmCloudKit_Example/BLLogger.framework'
   install_framework 'Pods-RealmCloudKit_Example/Backgroundable.framework'
-  install_framework 'Pods-RealmCloudKit_Example/CryptoSwift.framework'
+  install_framework 'Pods-RealmCloudKit_Example/Internet.framework'
+  install_framework 'Pods-RealmCloudKit_Example/KeychainAccess.framework'
   install_framework 'Pods-RealmCloudKit_Example/MultiRealm.framework'
+  install_framework 'Pods-RealmCloudKit_Example/ReachabilitySwift.framework'
   install_framework 'Pods-RealmCloudKit_Example/Realm.framework'
   install_framework 'Pods-RealmCloudKit_Example/RealmCloudKit.framework'
   install_framework 'Pods-RealmCloudKit_Example/RealmSwift.framework'

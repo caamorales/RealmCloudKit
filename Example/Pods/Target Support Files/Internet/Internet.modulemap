@@ -1,0 +1,6 @@
+framework module Internet {
+  umbrella header "Internet-umbrella.h"
+
+  export *
+  module * { export * }
+}

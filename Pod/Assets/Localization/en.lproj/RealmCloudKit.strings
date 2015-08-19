@@ -1,0 +1,20 @@
+/* 
+  RealmCloudKit.strings
+  Pods
+
+*/
+
+
+"iCloudPreference" = "Use iCloud?";
+"iCloudPreferenceDescription" = "Would you like to use iCloud to sync data?";
+"iCloudSetup" = "iCloud Setup";
+"iCloudSetupDescription" = "In order to sync data, we need to set up an iCloud account. Would you like to do that now?";
+"No" = "No, thanks";
+"Yes" = "Yes, please!";
+
+
+//Errors
+"Denied" = "The user chose not to use iCloud.";
+"PasswordMiss" = "The user hasn't set up an iCloud account and doesn't want to set it.";
+"TurnedOff" = "NSUserDefaults\' \'IPromiseTheUserWantsToUseiCloud\' option was true, but has been set to false. Shutting down RealmCloudKit.";
+"Restricted" = "iCloud access is restricted by the system on this device.";

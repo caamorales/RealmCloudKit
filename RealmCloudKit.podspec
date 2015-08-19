@@ -16,5 +16,9 @@ Pod::Spec.new do |s|
   s.frameworks = 'Foundation', 'CloudKit', 'Security'
   s.dependency 'MultiRealm'
   s.dependency 'SwiftFileManager'
-  s.dependency 'CryptoSwift'
+  s.dependency 'KeychainAccess'
+  s.dependency 'Internet'
+
+  # iOS
+  s.ios.resource_bundle = { 'RealmCloudKit-iOS' => ['RealmCloudKit/Localization/*.lproj'] }
 end

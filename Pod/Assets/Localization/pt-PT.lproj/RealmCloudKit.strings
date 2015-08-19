@@ -1,0 +1,20 @@
+/* 
+  RealmCloudKit.strings
+  Pods
+
+*/
+
+
+"iCloudPreference" = "Usar o iCloud?";
+"iCloudPreferenceDescription" = "Gostarias de usar o iCloud para sincronizar os dados?";
+"iCloudSetup" = "Configuração do iCloud";
+"iCloudSetupDescription" = "Para sincronizarmos os dados, precisamos de uma conta do iCloud. Gostarias de configurá-la agora?";
+"No" = "Não, obrigado";
+"Yes" = "Sim, por favor!";
+
+
+//Errors
+"Denied" = "O usuário escolheu não usar o iCloud.";
+"PasswordMiss" = "O usuário não tem uma conta do iCloud configurada e não quer configurá-la.";
+"TurnedOff" = "A opção \'IPromiseTheUserWantsToUseiCloud\' do NSUserDefaults era \'true\', mas foi modificada para \'false\'. Desligando o RealmCloudKit.";
+"Restricted" = "O acesso ao iCloud está restrito pelo sistema neste aparelho.";

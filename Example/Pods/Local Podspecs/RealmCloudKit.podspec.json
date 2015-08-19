@@ -29,8 +29,25 @@
     "SwiftFileManager": [
 
     ],
-    "CryptoSwift": [
+    "KeychainAccess": [
+
+    ],
+    "Internet": [
 
     ]
+  },
+  "ios": {
+    "resource_bundles": {
+      "RealmCloudKit-iOS": [
+        "RealmCloudKit/Localization/*.lproj"
+      ]
+    }
+  },
+  "osx": {
+    "resource_bundles": {
+      "RealmCloudKit-OSX": [
+        "RealmCloudKit/Localization/*.lproj"
+      ]
+    }
   }
 }
